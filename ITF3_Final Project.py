@@ -29,7 +29,7 @@ while True:
             user_info["buses"] += ["Bus B - Gaza ----> Jerusalem"]
             user_info["seats"] += [seat]
 
-    another_booking = input("Do you want another booking? ")
+    another_booking = input("Do you want another booking? (yes,No): ")
     if another_booking.lower() == "yes":
         continue
     else:
